@@ -57,9 +57,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => PlaygroundsWidget(),
         ),
         FFRoute(
-          name: 'Profile13DoctorDetails',
-          path: '/profile13DoctorDetails',
-          builder: (context, params) => Profile13DoctorDetailsWidget(),
+          name: 'KyliesCrossExample',
+          path: '/kyliesCrossExample',
+          builder: (context, params) => KyliesCrossExampleWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

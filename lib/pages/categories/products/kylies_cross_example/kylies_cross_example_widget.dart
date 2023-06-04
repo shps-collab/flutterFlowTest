@@ -7,20 +7,19 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'profile13_doctor_details_model.dart';
-export 'profile13_doctor_details_model.dart';
+import 'kylies_cross_example_model.dart';
+export 'kylies_cross_example_model.dart';
 
-class Profile13DoctorDetailsWidget extends StatefulWidget {
-  const Profile13DoctorDetailsWidget({Key? key}) : super(key: key);
+class KyliesCrossExampleWidget extends StatefulWidget {
+  const KyliesCrossExampleWidget({Key? key}) : super(key: key);
 
   @override
-  _Profile13DoctorDetailsWidgetState createState() =>
-      _Profile13DoctorDetailsWidgetState();
+  _KyliesCrossExampleWidgetState createState() =>
+      _KyliesCrossExampleWidgetState();
 }
 
-class _Profile13DoctorDetailsWidgetState
-    extends State<Profile13DoctorDetailsWidget> {
-  late Profile13DoctorDetailsModel _model;
+class _KyliesCrossExampleWidgetState extends State<KyliesCrossExampleWidget> {
+  late KyliesCrossExampleModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
   final _unfocusNode = FocusNode();
@@ -28,7 +27,7 @@ class _Profile13DoctorDetailsWidgetState
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => Profile13DoctorDetailsModel());
+    _model = createModel(context, () => KyliesCrossExampleModel());
   }
 
   @override
