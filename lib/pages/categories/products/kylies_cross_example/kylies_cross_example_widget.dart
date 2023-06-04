@@ -301,7 +301,7 @@ class _KyliesCrossExampleWidgetState extends State<KyliesCrossExampleWidget> {
                           Align(
                             alignment: AlignmentDirectional(-1.0, 0.0),
                             child: Text(
-                              'Bio',
+                              'Bio *AI Generated*',
                               style: FlutterFlowTheme.of(context)
                                   .bodySmall
                                   .override(
@@ -316,7 +316,7 @@ class _KyliesCrossExampleWidgetState extends State<KyliesCrossExampleWidget> {
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 8.0, 0.0, 12.0),
                               child: Text(
-                                '\"AI Generated\"\nIntroducing Kylie\'s Cross: Unleash your inner adventurer as you conquer new heights, igniting imagination and fostering endless exploration.',
+                                'Introducing Kylie\'s Cross: Unleash your inner adventurer as you conquer new heights, igniting imagination and fostering endless exploration.',
                                 style: FlutterFlowTheme.of(context).labelMedium,
                               ),
                             ),

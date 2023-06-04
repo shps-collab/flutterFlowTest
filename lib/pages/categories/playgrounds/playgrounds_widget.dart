@@ -57,8 +57,8 @@ class _PlaygroundsWidgetState extends State<PlaygroundsWidget> {
               color: FlutterFlowTheme.of(context).primaryText,
               size: 30.0,
             ),
-            onPressed: () {
-              print('IconButton pressed ...');
+            onPressed: () async {
+              context.safePop();
             },
           ),
           title: Text(
